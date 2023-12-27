@@ -7,9 +7,9 @@ To Do List App!
 
 
 Includes:
-Authorized login and regitration
-Profile
-To Do List persistance that saves which tasks you have completed, yet to complete, and deleted
+* Authorized login and regitration
+* Profile
+* To Do List persistance that saves which tasks you have completed, yet to complete, and deleted
 
 #Built With
 * Swift
@@ -19,5 +19,5 @@ To Do List persistance that saves which tasks you have completed, yet to complet
 
 #Getting Started
 Prerequisites:
-XCode
+* XCode
 
