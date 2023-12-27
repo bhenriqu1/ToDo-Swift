@@ -3,7 +3,7 @@
 #About the Project
 To Do List App!
 
-
+![](https://github.com/bhenriqu1/ToDo-Swift/blob/main/ToDo-iOS-app/ToDo-iOS-app/Other/todo-list-app-gif.gif)
 
 
 Includes:
