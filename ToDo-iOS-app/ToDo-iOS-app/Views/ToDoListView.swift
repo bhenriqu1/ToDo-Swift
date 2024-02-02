@@ -13,7 +13,7 @@ struct ToDoListView: View {
 
     init(userId: String){
         self._items = FirestoreQuery(
-            collectionPath: "users/\(userId)/todos"
+            collectionPath: "users-new-3/\(userId)/todos"
         )
         self._viewModel = StateObject(wrappedValue: ToDoListViewViewModel(userId: userId)
         )
@@ -45,7 +45,6 @@ struct ToDoListView: View {
             .sheet(isPresented: $viewModel.showingNewItemView){
                 NewItemView(newItemPresented: $viewModel.showingNewItemView)
             }
-
         }
     }
 }

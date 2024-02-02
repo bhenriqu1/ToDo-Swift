@@ -17,6 +17,9 @@ struct ProfileView: View {
                     profile(user: user)
                 } else {
                     Text("Loading Profile...")
+                    Button("Log Out"){
+                        viewModel.logOut()
+                    }
                 }
                 
             }

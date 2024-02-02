@@ -20,7 +20,7 @@ class ToDoListViewViewModel: ObservableObject{
     func delete(id: String){
         let db = Firestore.firestore()
         
-        db.collection("users")
+        db.collection("users-new-3")
             .document(userId)
             .collection("todos")
             .document(id)

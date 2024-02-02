@@ -23,7 +23,6 @@
 		6C4F9F1B2B36053A008FC491 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6C4F9F1A2B36053A008FC491 /* FirebaseAuth */; };
 		6C4F9F1D2B36053A008FC491 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6C4F9F1C2B36053A008FC491 /* FirebaseFirestore */; };
 		6C4F9F1F2B36053A008FC491 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6C4F9F1E2B36053A008FC491 /* FirebaseFirestoreSwift */; };
-		6C4F9F2C2B36100B008FC491 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C4F9F2B2B36100B008FC491 /* GoogleService-Info.plist */; };
 		6C4F9F2E2B361208008FC491 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4F9F2D2B361208008FC491 /* ProfileView.swift */; };
 		6C4F9F3B2B364105008FC491 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4F9F3A2B364105008FC491 /* User.swift */; };
 		6C4F9F3D2B364116008FC491 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4F9F3C2B364116008FC491 /* ToDoListItem.swift */; };
@@ -34,6 +33,7 @@
 		6C4F9F472B364168008FC491 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4F9F462B364168008FC491 /* LoginViewModel.swift */; };
 		6C4F9F492B364176008FC491 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4F9F482B364176008FC491 /* RegisterViewModel.swift */; };
 		6C4F9F4B2B364182008FC491 /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4F9F4A2B364182008FC491 /* ToDoListViewModel.swift */; };
+		6C74732D2B6C519400F67934 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C74732C2B6C519400F67934 /* GoogleService-Info.plist */; };
 		6CBC7A042B3A52D500BF4272 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC7A032B3A52D500BF4272 /* Extensions.swift */; };
 		6CBC7A062B3C7C6200BF4272 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBC7A052B3C7C6200BF4272 /* Launch Screen.storyboard */; };
 		6CDC34EA2B39DECC00D9F2AC /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC34E92B39DECB00D9F2AC /* TLButton.swift */; };
@@ -73,7 +73,6 @@
 		6C4F9F042B36016B008FC491 /* ToDo-iOS-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo-iOS-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4F9F082B36016B008FC491 /* ToDo_iOS_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_iOS_appUITests.swift; sourceTree = "<group>"; };
 		6C4F9F0A2B36016B008FC491 /* ToDo_iOS_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_iOS_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6C4F9F2B2B36100B008FC491 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6C4F9F2D2B361208008FC491 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6C4F9F3A2B364105008FC491 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6C4F9F3C2B364116008FC491 /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
@@ -84,6 +83,7 @@
 		6C4F9F462B364168008FC491 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		6C4F9F482B364176008FC491 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		6C4F9F4A2B364182008FC491 /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		6C74732C2B6C519400F67934 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6CBC7A032B3A52D500BF4272 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6CBC7A052B3C7C6200BF4272 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6CDC34E92B39DECB00D9F2AC /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		6C4F9EEC2B36016A008FC491 /* ToDo-iOS-app */ = {
 			isa = PBXGroup;
 			children = (
-				6C4F9F2B2B36100B008FC491 /* GoogleService-Info.plist */,
+				6C74732C2B6C519400F67934 /* GoogleService-Info.plist */,
 				6C4F9F232B360897008FC491 /* Other */,
 				6C4F9F222B360889008FC491 /* Models */,
 				6C4F9F212B360879008FC491 /* ViewModels */,
@@ -338,9 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C4F9EF52B36016B008FC491 /* Preview Assets.xcassets in Resources */,
+				6C74732D2B6C519400F67934 /* GoogleService-Info.plist in Resources */,
 				6C4F9EF22B36016B008FC491 /* Assets.xcassets in Resources */,
 				6CBC7A062B3C7C6200BF4272 /* Launch Screen.storyboard in Resources */,
-				6C4F9F2C2B36100B008FC491 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +558,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-swift-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -589,7 +589,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-swift-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -608,7 +608,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-swift-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -628,7 +628,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-swift-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -646,7 +646,7 @@
 				DEVELOPMENT_TEAM = CAZ95U5Y7L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-swift-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -664,7 +664,7 @@
 				DEVELOPMENT_TEAM = CAZ95U5Y7L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "apple-student-bgh.ToDo-iOS-swift-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

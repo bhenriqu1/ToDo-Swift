@@ -20,7 +20,7 @@ class ToDoListItemViewViewModel: ObservableObject{
         }
         
         let db = Firestore.firestore()
-        db.collection("users")
+        db.collection("users-new-3")
             .document(uid)
             .collection("todos")
             .document(itemCopy.id)
