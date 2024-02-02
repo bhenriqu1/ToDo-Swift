@@ -3,3 +3,6 @@
 ./ToDo-iOS-app/ToDo-iOS-app/GoogleService-Info.plist
 
 ./ToDo-iOS-app/ToDo-iOS-app.xcodeproj/project.pbxproj
+
+#XCode User Data
+xcuserdata/
