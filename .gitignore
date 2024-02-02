@@ -1,8 +1,12 @@
 #Firebase configuration file 
+ToDo-iOS-app/ToDo-iOS-app/GoogleService-Info.plist
 
-./ToDo-iOS-app/ToDo-iOS-app/GoogleService-Info.plist
-
-./ToDo-iOS-app/ToDo-iOS-app.xcodeproj/project.pbxproj
 
 #XCode User Data
-xcuserdata/
+ToDo-iOS-app/ToDo-iOS-app.xcodeproj/xcuserdata/
+ToDo-iOS-app/ToDo-iOS-app.xcodeproj/project.xcworkspace/xcuserdata/
+
+# OS X temporary files that should never be committed
+.DS_Store
+*.swp
+*~
